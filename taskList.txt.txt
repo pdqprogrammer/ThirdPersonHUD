@@ -1,0 +1,3 @@
+TODO List:
+- Make camera shift a bit when holding aim button
+- Add lerping to progress bars

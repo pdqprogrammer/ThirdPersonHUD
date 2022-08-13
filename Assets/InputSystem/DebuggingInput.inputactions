@@ -1,0 +1,114 @@
+{
+    "name": "DebuggingInput",
+    "maps": [
+        {
+            "name": "Debug",
+            "id": "9cc950b4-b9f3-42e0-81b5-dd5abc051520",
+            "actions": [
+                {
+                    "name": "Heal",
+                    "type": "Button",
+                    "id": "88726a60-166c-49ce-8ee7-6c522598fc51",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Hurt",
+                    "type": "Button",
+                    "id": "4188e38a-7cd2-405d-8013-7e11646ddc60",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability 01",
+                    "type": "Button",
+                    "id": "d859a599-c444-4f98-96a9-1ce6f2e3eb89",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability 02",
+                    "type": "Button",
+                    "id": "d095108a-ca98-495a-8c59-0216e6788f87",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "c99cc28f-cf9c-4fe1-9224-c5d3ed941e7c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9ac4d129-934f-4562-af43-6ff50a8829f1",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Heal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2275d993-4e8c-425c-978a-2c28324c0899",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hurt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3448caf9-308f-4f42-918f-208fc0dd33cd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability 01",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3d13701-f5d6-498e-a939-e7488e1c4134",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability 02",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4b2f25cb-2c35-4130-b0ff-71fec4177e9d",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
